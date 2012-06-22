@@ -55,12 +55,6 @@
     <developerConnection>scm:git:ssh://git@github.com/greese/dasein-cloud.git</developerConnection>
     <url>http://github.com/greese/dasein-cloud</url>
   </scm>
-    
-  <scm>
-    <connection>scm:git:https://servername/dasein-cloud/dasein-cloud-core</connection>
-    <developerConnection>scm:git:[fetch=]http://mywebserver.org/path_to_repository[push=]ssh://username@otherserver:8898/~/repopath.git</developerConnection>
-    <url>https://dasein-cloud.svn.sourceforge.net/svnroot/dasein-cloud/trunk/dasein-cloud-core</url>
-  </scm>
   
   <parent>
     <groupId>org.sonatype.oss</groupId>
@@ -75,7 +69,12 @@
         <version>2012.02</version>
         <scope>compile</scope>
         <optional>false</optional>
-    </dependency>  
+    </dependency>
+    <dependency>
+        <groupId>commons-codec</groupId>
+        <artifactId>commons-codec</artifactId>
+        <version>1.6</version>
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

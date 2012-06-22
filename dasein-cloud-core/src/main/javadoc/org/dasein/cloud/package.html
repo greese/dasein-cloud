@@ -1,0 +1,56 @@
+<!--
+
+    Copyright (C) 2009-2012 enStratus Networks Inc.
+
+    ====================================================================
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+    ====================================================================
+
+-->
+
+<body>
+  <p>
+    Base package for the Dasein Cloud API. The entry point into leveraging this library is the
+    {@link org.dasein.cloud.CloudProvider} class. The API does not currently support any fancy bootstrapping mechanism.
+    Instead, you simply construct an implementation of the {@link org.dasein.cloud.CloudProvider} API appropriate to
+    your target cloud.
+  </p>
+  <p>
+    The cloud provider gives access to all supported services within the target cloud. Any service
+    that is wholly unsupported will return <code>null</code>. An application will thus request
+    its cloud provider using whatever bootstrapping mechanism is appropriate to its environment
+    and then request the services it desires:
+  </p>
+  <pre>
+    // Print out all regions supported in this cloud
+    CloudProvider provider = new AmazonWebServices();
+    ProviderContext context = new ProviderContext();
+    DataCenterServices dc;
+    
+    // Not shown: Setting the AWS access credentials 
+    // When done, call provider.init(context) with the set credentials
+    provider.connect(context);
+    dc = provider.getDataCenterServices();
+    for( Region region : dc.listRegions() ) {
+        System.out.println(region.getName());
+    }
+  </pre>
+  <h2>Notes for Implementors</h2>
+  <p>
+    Begin implementing this API by writing an implementation of the {@link org.dasein.cloud.CloudProvider} abstract
+    class. The simplest provider package for Dasein Cloud is an implementation of
+    {@link org.dasein.cloud.CloudProvider} that returns <code>null</code> for all services. Of course, you probably
+    want to tie into specific services and thus your implementation should return implementations
+    of all relevant services.
+  </p>  
+</body>
