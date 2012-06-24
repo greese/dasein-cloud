@@ -1,0 +1,3 @@
+[submodule "dasein-cloud-core"]
+	path = dasein-cloud-core
+	url = https://github.com/greese/dasein-cloud-core.git
