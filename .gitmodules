@@ -1,3 +1,9 @@
 [submodule "dasein-cloud-core"]
 	path = dasein-cloud-core
 	url = https://github.com/greese/dasein-cloud-core.git
+[submodule "dasein-cloud-test"]
+	path = dasein-cloud-test
+	url = https://github.com/greese/dasein-cloud-test.git
+[submodule "dasein-cloud-aws"]
+	path = dasein-cloud-aws
+	url = https://github.com/greese/dasein-cloud-aws.git
