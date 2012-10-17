@@ -7,3 +7,6 @@
 [submodule "dasein-cloud-aws"]
 	path = dasein-cloud-aws
 	url = https://github.com/greese/dasein-cloud-aws.git
+[submodule "dasein-cloud-atmos"]
+	path = dasein-cloud-atmos
+	url = git://github.com/greese/dasein-cloud-atmos.git
