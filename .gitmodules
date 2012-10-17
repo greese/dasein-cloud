@@ -22,3 +22,6 @@
 [submodule "dasein-cloud-vsphere"]
 	path = dasein-cloud-vsphere
 	url = git://github.com/greese/dasein-cloud-vsphere.git
+[submodule "dasein-cloud-mock"]
+	path = dasein-cloud-mock
+	url = git://github.com/greese/dasein-cloud-mock.git
