@@ -10,3 +10,15 @@
 [submodule "dasein-cloud-atmos"]
 	path = dasein-cloud-atmos
 	url = git://github.com/greese/dasein-cloud-atmos.git
+[submodule "dasein-cloud-gogrid"]
+	path = dasein-cloud-gogrid
+	url = git://github.com/greese/dasein-cloud-gogrid.git
+[submodule "dasein-cloud-openstack"]
+	path = dasein-cloud-openstack
+	url = git://github.com/greese/dasein-cloud-openstack.git
+[submodule "dasein-cloud-cloudstack"]
+	path = dasein-cloud-cloudstack
+	url = git://github.com/greese/dasein-cloud-cloudstack.git
+[submodule "dasein-cloud-vsphere"]
+	path = dasein-cloud-vsphere
+	url = git://github.com/greese/dasein-cloud-vsphere.git
