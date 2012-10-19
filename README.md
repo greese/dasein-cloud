@@ -13,13 +13,18 @@ The main Dasein Cloud project is a shell that contains many different Git sub-mo
 The most important sub-module is dasein-cloud-core. The core contains the Dasein Cloud
 object model against which you write your applications. You should not have any compile-time
 dependencies on any other Dasein sub-modules. All other sub-modules except dasein-cloud-test,
-dasein-cloud-examples, and dasein-cloud-cli are implementations of the Dasein Cloud model
+dasein-cloud-mock, and dasein-cloud-cli are implementations of the Dasein Cloud model
 for specific clouds. You include the ones you need as runtime dependencies.
+
+dasein-cloud-core also includes examples of using Dasein Cloud in an application.
 
 dasein-cloud-test is a pre-configured test suite for people implementing Dasein Cloud
 for specific clouds so they can verify their implementation functions according to
 the specification.
 
-dasein-cloud-examples is a set of examples on how to write against the Dasein Cloud model.
+dasein-cloud-mock is an implementation of Dasein Cloud that mocks an actual cloud. When
+testing your cloud applications, you run the tests against dasein-cloud-mock instead of
+a specific cloud in order to facilitate unit tests. It mocks delays in state changes (such
+as the fact that launching a VM is never immediate).
 
 dasein-cloud-cli is a command-line library for talking to clouds.
