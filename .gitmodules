@@ -25,3 +25,6 @@
 [submodule "dasein-cloud-mock"]
 	path = dasein-cloud-mock
 	url = git://github.com/greese/dasein-cloud-mock.git
+[submodule "dasein-cloud-ibm"]
+	path = dasein-cloud-ibm
+	url = git://github.com/greese/dasein-cloud-ibm.git
