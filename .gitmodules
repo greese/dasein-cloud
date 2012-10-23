@@ -28,3 +28,6 @@
 [submodule "dasein-cloud-ibm"]
 	path = dasein-cloud-ibm
 	url = git://github.com/greese/dasein-cloud-ibm.git
+[submodule "dasein-cloud-nimbula"]
+	path = dasein-cloud-nimbula
+	url = git://github.com/greese/dasein-cloud-nimbula.git
