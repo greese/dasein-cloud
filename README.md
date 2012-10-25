@@ -1,5 +1,7 @@
 For the latest information, see: https://github.com/greese/dasein-cloud/wiki
 
+For discussion, join the Dasein Cloud Google Groups group: https://groups.google.com/forum/#!forum/dasein-cloud
+
 Dasein Cloud is a Java-based cloud abstraction layer that enables programmers to build 
 applications under a "write-once, run against any cloud" philosophy. It provides an
 abstract model under which most IaaS and some PaaS services can be modeled. You write
