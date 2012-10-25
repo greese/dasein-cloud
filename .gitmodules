@@ -34,3 +34,6 @@
 [submodule "dasein-cloud-joyent"]
 	path = dasein-cloud-joyent
 	url = git://github.com/greese/dasein-cloud-joyent.git
+[submodule "dasein-cloud-opsource"]
+	path = dasein-cloud-opsource
+	url = git://github.com/greese/dasein-cloud-opsource.git
