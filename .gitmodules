@@ -37,3 +37,6 @@
 [submodule "dasein-cloud-opsource"]
 	path = dasein-cloud-opsource
 	url = git://github.com/greese/dasein-cloud-opsource.git
+[submodule "dasein-cloud-rackspace"]
+	path = dasein-cloud-rackspace
+	url = git://github.com/greese/dasein-cloud-rackspace.git
