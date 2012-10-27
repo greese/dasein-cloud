@@ -40,3 +40,6 @@
 [submodule "dasein-cloud-rackspace"]
 	path = dasein-cloud-rackspace
 	url = git://github.com/greese/dasein-cloud-rackspace.git
+[submodule "dasein-cloud-cloudsigma"]
+	path = dasein-cloud-cloudsigma
+	url = git://github.com/greese/dasein-cloud-cloudsigma.git
