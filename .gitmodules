@@ -43,3 +43,6 @@
 [submodule "dasein-cloud-cloudsigma"]
 	path = dasein-cloud-cloudsigma
 	url = git://github.com/greese/dasein-cloud-cloudsigma.git
+[submodule "dasein-cloud-softlayer"]
+	path = dasein-cloud-softlayer
+	url = git://github.com/greese/dasein-cloud-softlayer.git
