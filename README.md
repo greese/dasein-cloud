@@ -8,12 +8,12 @@ abstract model under which most IaaS and some PaaS services can be modeled. You 
 your application to the Dasein Cloud model and it is then translated into the underlying
 cloud provider model.
 
-"Dasein" comes from the philosophical concept called Dasein (http://en.wikipedia.org/wiki/Dasein).
-
 It's not a least-common denominator approach, however. Dasein Cloud serves up a meta-data
 layer that enables an application to dynamically discover the capabilities of the cloud with
 which it is operating. You therefore create conditional logic based solely on the Dasein 
 model and successfully deal with the nuances and unique capabilities of each cloud.
+
+"Dasein" comes from the philosophical concept called Dasein (http://en.wikipedia.org/wiki/Dasein).
 
 The main Dasein Cloud project is a shell that contains many different Git sub-modules.
 The most important sub-module is dasein-cloud-core. The core contains the Dasein Cloud
