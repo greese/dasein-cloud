@@ -49,3 +49,6 @@
 [submodule "dasein-cloud-zimory"]
 	path = dasein-cloud-zimory
 	url = git://github.com/greese/dasein-cloud-zimory.git
+[submodule "dasein-cloud-azure"]
+	path = dasein-cloud-azure
+	url = git://github.com/greese/dasein-cloud-azure.git
