@@ -46,3 +46,6 @@
 [submodule "dasein-cloud-softlayer"]
 	path = dasein-cloud-softlayer
 	url = git://github.com/greese/dasein-cloud-softlayer.git
+[submodule "dasein-cloud-zimory"]
+	path = dasein-cloud-zimory
+	url = git://github.com/greese/dasein-cloud-zimory.git
