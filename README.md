@@ -1,4 +1,4 @@
-For the latest information, see: https://github.com/greese/dasein-cloud/wiki
+For the latest information, details on how to contrib and branching, and other information, see: https://github.com/greese/dasein-cloud/wiki
 
 For discussion, join the Dasein Cloud Google Groups group: https://groups.google.com/forum/#!forum/dasein-cloud
 
