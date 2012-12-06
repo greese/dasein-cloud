@@ -52,3 +52,6 @@
 [submodule "dasein-cloud-azure"]
 	path = dasein-cloud-azure
 	url = git://github.com/greese/dasein-cloud-azure.git
+[submodule "dasein-cloud-skeleton"]
+	path = dasein-cloud-skeleton
+	url = git://github.com/greese/dasein-cloud-skeleton.git
