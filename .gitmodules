@@ -55,3 +55,6 @@
 [submodule "dasein-cloud-skeleton"]
 	path = dasein-cloud-skeleton
 	url = git://github.com/greese/dasein-cloud-skeleton.git
+[submodule "dasein-cloud-vcloud"]
+	path = dasein-cloud-vcloud
+	url = git://github.com/greese/dasein-cloud-vcloud.git
