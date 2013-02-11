@@ -58,3 +58,6 @@
 [submodule "dasein-cloud-vcloud"]
 	path = dasein-cloud-vcloud
 	url = git://github.com/greese/dasein-cloud-vcloud.git
+[submodule "dasein-cloud-terremark"]
+	path = dasein-cloud-terremark
+	url = git://github.com/greese/dasein-cloud-terremark.git
