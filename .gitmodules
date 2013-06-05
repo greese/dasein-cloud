@@ -61,3 +61,9 @@
 [submodule "dasein-cloud-terremark"]
 	path = dasein-cloud-terremark
 	url = git://github.com/greese/dasein-cloud-terremark.git
+[submodule "dasein-cloud-tier3"]
+	path = dasein-cloud-tier3
+	url = git://github.com/greese/dasein-cloud-tier3.git
+[submodule "dasein-cloud-asm"]
+	path = dasein-cloud-asm
+	url = git://github.com/greese/dasein-cloud-asm.git
