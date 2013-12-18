@@ -67,3 +67,6 @@
 [submodule "dasein-cloud-asm"]
 	path = dasein-cloud-asm
 	url = git://github.com/greese/dasein-cloud-asm.git
+[submodule "dasein-cloud-flexiant"]
+	path = dasein-cloud-flexiant
+	url = https://github.com/greese/dasein-cloud-flexiant.git
