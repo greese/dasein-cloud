@@ -73,3 +73,6 @@
 [submodule "dasein-cloud-digitalocean"]
 	path = dasein-cloud-digitalocean
 	url = https://github.com/greese/dasein-cloud-digitalocean.git
+[submodule "dasein-cloud-virtustream"]
+	path = dasein-cloud-virtustream
+	url = https://github.com/greese/dasein-cloud-virtustream.git
