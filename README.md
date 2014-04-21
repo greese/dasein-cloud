@@ -1,3 +1,5 @@
+NOTE: CLONE THIS REPO FOR READ-ONLY PURPOSES ONLY. FOR DEVELOPMENT, YOU SHOULD WORK WITH INDIVIDUAL SUBMODULES.
+
 For the latest information, details on how to contrib and branching, and other information, see: https://github.com/greese/dasein-cloud/wiki
 
 For online collaboration and questions, join the HipChat at: https://www.hipchat.com/gLjcZbGFl
