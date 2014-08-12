@@ -13,6 +13,9 @@
 [submodule "dasein-cloud-gogrid"]
 	path = dasein-cloud-gogrid
 	url = git://github.com/greese/dasein-cloud-gogrid.git
+[submodule "dasein-cloud-google"]
+        path = dasein-cloud-google
+        url = git://github.com/greese/dasein-cloud-google.git
 [submodule "dasein-cloud-openstack"]
 	path = dasein-cloud-openstack
 	url = git://github.com/greese/dasein-cloud-openstack.git
